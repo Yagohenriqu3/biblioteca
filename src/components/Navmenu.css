@@ -1,0 +1,11 @@
+.navmenu{
+    margin: auto;
+    display: flex;
+   background-color: white;
+   color: black;
+}
+
+.logo-navmenu{
+    width: 10em;
+    margin-left: 2em;
+}

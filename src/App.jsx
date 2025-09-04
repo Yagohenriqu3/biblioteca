@@ -1,10 +1,17 @@
+import HomePage from "./pages/Home"
+import './index.css'
+import Navmenu from "./components/Navmenu"
+import Footer from "./components/footer"
+
 
 
 function App() {
 
   return (
     <>
-      teste
+      <Navmenu/>
+      <HomePage/>
+      <Footer/>
       
     </>
   )

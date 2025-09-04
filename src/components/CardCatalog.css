@@ -1,0 +1,63 @@
+.CardCatalog{
+     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.274);
+     margin: 1em;
+     border-radius: 10px;
+     
+     
+}
+
+.CardCatalog div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 15em;
+    display: flex;
+     justify-content: center;
+   
+}
+
+.CardCatalog h2{
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1.3em;
+}
+
+.CardCatalog p{
+    text-align: center;
+    padding: 0em 1em;
+}
+
+.CardCatalog button{
+    display: flex;
+
+    background-color: #F98A16;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    margin: 0.5em 1em;
+    
+    
+}
+
+.CardCatalog button:hover{
+    background-color: #ce6c02;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px ){
+   
+    .CardCatalog div{
+        width: 65vw;
+        border-radius: 1em;
+        
+    }
+
+    .CardCatalog button{
+        margin: 0.5em 0.5em;
+        width: 100vw;
+        
+    }
+
+
+}
