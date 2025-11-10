@@ -14,5 +14,11 @@
 
 body{
   background-color: #f0f0f0;
+  color: #414141
 }
 
+/* estiliza o ícone do calendário */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(39%) sepia(95%) saturate(1500%) hue-rotate(200deg) brightness(95%) contrast(90%);
+}
